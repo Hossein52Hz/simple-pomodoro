@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Promodo app</title>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <script src="assets/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4" id="tasks">
+                <div class="app-col-3">
+                    <div class="input-group mb-3 input-section">
+
+                        <input type="text" class="form-control" id="task-input" placeholder="Enter New Task">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="add-item">+</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <ul class="list-group list-tasks">
+
+                        <li class="input-group">
+                            Amount (to the nearest dollar)
+                            <span class="input-group-text remove-task"></span>
+                            <span class="input-group-text complete-task"></span>
+                        </li>
+                        <li class="input-group">
+                            Amount (to the nearest dollar)
+                            <span class="input-group-text remove-task"></span>
+                            <span class="input-group-text complete-task"></span>
+                        </li>
+                        <li class="input-group">
+                            Amount (to the nearest dollar)
+                            <span class="input-group-text remove-task"></span>
+                            <span class="input-group-text complete-task"></span>
+                        </li>
+                        <li class="input-group">
+                            Amount (to the nearest dollar)
+                            <span class="input-group-text remove-task"></span>
+                            <span class="input-group-text complete-task"></span>
+                        </li>
+                        <li class="input-group">
+                            Amount (to the nearest dollar)
+                            <span class="input-group-text remove-task"></span>
+                            <span class="input-group-text complete-task"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-4" id="timer">
+                <div class="app-col-3">
+                    <span id="timer">25:00</span>
+                    <button type="button" class="btn btn-lg btn-danger" id="start-time">Start</button>
+                    <div class="time-controller">
+                        <button type="button" class="btn btn-lg btn-primary" id="pause-time">Pause</button>
+                        <button type="button" class="btn btn-lg btn-primary" id="stop-time">Stop</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4" id="report">
+                <div class="app-col-3">
+                    <div class="today-report">
+                        <h2>Today Report</h2>
+                        <ul>
+                            <li>Total(H): <span>12</span></li>
+                            <li>Tasks <span>5</span></li>
+                        </ul>
+                    </div>
+                    <div class="weekly-report">
+                        <h2>Weekly Report</h2>
+                        <ul>
+                            <li>Total(H): <span>12</span></li>
+                            <li>Tasks <span>5</span></li>
+                        </ul>
+                    </div>
+                    <div class="monthly-report">
+                        <h2>Monthly Report</h2>
+                        <ul>
+                            <li>Total(H): <span>12</span></li>
+                            <li>Tasks <span>5</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

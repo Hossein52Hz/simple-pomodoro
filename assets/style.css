@@ -1,0 +1,106 @@
+
+body{
+    /* background: url("bg.jpg"); */
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+.app-col-3{
+    padding: 40px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    /* margin: 70px 20px; */
+    border-radius: 5px;
+    height: 600px;
+    margin: 30px;
+    /* margin-left: 100px; */
+    
+}
+.input-section{
+    padding: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+}
+.input-section li{
+    list-style: none;
+}
+
+/* #task-input{
+    margin-bottom: 20px;
+} */
+.list-tasks li input{
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-left: 0;
+    padding-bottom: 4px;
+}
+.list-tasks li {
+    margin-bottom: 20px;
+}
+.list-tasks li span{
+    width: 40px;
+    height: 38px;
+    border: 0;
+    right: 0;
+    position: absolute;
+    top: -10px;
+}
+.list-tasks li span:hover {
+    cursor: pointer;
+}
+.remove-task{
+    background: url(remove.png) no-repeat center;
+    right: 42px !important;
+}
+
+.complete-task{
+    background: url(complete.png) no-repeat center;
+}
+
+#add-item:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+
+/* timer section */
+
+#timer span{
+    text-align: center;
+    width: 260px;
+    padding: 50px;
+    margin: 0 auto;
+    display: block;
+    font-size: 70px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    height: 250px;
+}
+#start-time{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+}
+
+.time-controller{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.time-controller .btn{
+    padding:10px 25px;
+    width: 100px;
+}
+
+
+/* report section */
+
+.daily-report ul li {
+    display: inline;
+}
